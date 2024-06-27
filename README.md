@@ -3,3 +3,4 @@ Welcome to the repository for the DCSC (Dunwoody Computer Science Club) website.
 
 Contributors:
 Ray Ramirez
+Cristian Cruz
