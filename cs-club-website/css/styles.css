@@ -41,7 +41,7 @@ body {
     color:rgb(0, 57, 166);
     border-radius: 8px;
     transition: color 1s ease, 
-    background color 2s ease
+    background-color 0.5s ease
    
 }
 .logo a {
