@@ -40,8 +40,8 @@ body {
     background-color: whitesmoke;
     color:rgb(0, 57, 166);
     border-radius: 8px;
-    transition: color 1s ease, 
-    background color 2s ease
+    transition: color 1s ease; 
+    background-color: 2s ease;
    
 }
 .logo a {
