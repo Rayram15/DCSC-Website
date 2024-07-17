@@ -48,3 +48,37 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.content {
+    text-align: center;
+    padding: 100px 20px;
+}
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.content h2 {
+    color: #fff;
+    font-weight: 600;
+}
+.content a {
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+
+}
