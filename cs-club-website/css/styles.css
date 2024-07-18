@@ -59,6 +59,7 @@ body {
     text-decoration: none;
     color: #fff;
 }
+/* style for the toggle button */
 .toggle-button {
     position: absolute;
     right: 1rem;
@@ -77,6 +78,7 @@ body {
 
 
 }
+/* this is a media querie that allows the nav bar to be responsive */
 @media (max-width: 600px) {
     .toggle-button {
         display: flex;
