@@ -4,27 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+   
     <title>Computer Science Club</title>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="">DCSC</a>
-        </div>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="" class="nav-item">Home</a></li>
-            <li><a href="about.html" class="nav-item">About Us</a></li>
-            <li><a href="projects.html" class="nav-item">Projects</a></li>
-            <li><a href="contacts.html" class="nav-item">Contacts</a></li>
-        </ul>
-    </nav>
+  </head>
+  <body>
 
-    <script>
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            var navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('active');
-        });
-    </script>
-</body>
+    <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="">DCSC</a>
+      </div>
+      <!-- This is the toggle button that displays when the browser is lower then 600px in width-->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="nav-links-div">
+      <ul class="nav-links">
+        <li><a href="" class="nav-item">Home</a></li>
+        <li><a href="about.html" class="nav-item">About Us</a></li>
+        <li><a href="projects.html" class="nav-item">Events/Projects</a></li>
+        <li><a href="contacts.html" class="nav-item">Contacts</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="css/images/[G] Binary codes background 2.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+      <h1>Dunwoody Computer Science Club</h1>
+      <h2>Code, Create, Collaborate: Igniting Innovation!</h2><br><br>
+      <a href="https://pin.gsu.edu/organization/dunwoody-computer-science-club">Join Now</a>
+    </div>
+  </main>
+  </body>
+  <script src="JS/script.js"></script>
 </html>
+ 

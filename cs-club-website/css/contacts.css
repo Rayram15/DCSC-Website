@@ -1,0 +1,136 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: -webkit-fill-available;
+}
+main {
+    flex: 1;
+    overflow: scroll;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: rgb(0, 57, 166);
+
+}
+
+.logo {
+    font-size: 2.5em; 
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    padding: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.5s ease;
+}
+
+.nav-item {
+    padding: 12px;
+}
+
+.nav-item:hover {
+    background-color: whitesmoke;
+    color:rgb(0, 57, 166);
+    border-radius: 8px;
+    transition: color 1s ease;
+    background-color: 2s ease;
+   
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+.toggle-button {
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 21px;
+
+}
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+    .nav-links-div {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .nav-links {
+        flex-direction: column; 
+        width: 100%;
+    }
+    .nav-links li {
+        text-align: center;
+    }
+    .nav-links li a {
+        padding: .5rem 1rem;
+    }
+    .nav-links-div.active {
+        display: flex;
+    }
+}
+
+
